@@ -1,0 +1,39 @@
+{
+  "name": "cpi-timeline",
+  "version": "1.0.1",
+  "description": "this is official website of cpi timeline",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayaj-uddin-24/cpi-timeline.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "ayaj uddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayaj-uddin-24/cpi-timeline/issues"
+  },
+  "homepage": "https://github.com/ayaj-uddin-24/cpi-timeline#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+a.active hr {
+  display: block;
+}
+
+#match {
+  background-image: url(/match.png);
+  background-size: cover;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("/banner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 640px){
+  a.active {
+    background-color: #333;
+    color: #fff;
+  }
+}
